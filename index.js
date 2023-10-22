@@ -1,6 +1,8 @@
-const jsonServer = require("json-server");
+const jsonServer = require("json-server"); // importing json-server library
 const server = jsonServer.create();
 const router = jsonServer.router("swiggy.json");
+const middlewares = jsonServer.defaults();
+
 const port = process.env.PORT || 8000;
 
 server.use(middlewares);
