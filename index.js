@@ -1,10 +1,14 @@
-const jsonServer = require("json-server"); // importing json-server library
-const server = jsonServer.create();
-const router = jsonServer.router("swiggy.json");
-const middlewares = jsonServer.defaults();
+// Import packages
+const express = require("express");
+const restaurant = require("./routes/restaurant");
 
-const port = process.env.PORT || 8000;
+// Middlewares
+const app = express();
+app.use(express.json());
 
-server.use(middlewares);
-server.use(router);
-server.listen(port);
+// Routes
+app.use("/restaurant", restaurant);
+
+// connection
+const port = process.env.PORT || 9001;
+app.listen(port, () => console.log(`Listening to port ${port}`));
