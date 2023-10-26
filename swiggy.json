@@ -2,6 +2,289 @@
   "restaurant": [
     {
       "info": {
+        "id": "69455",
+        "name": "Starbucks Coffee",
+        "cloudinaryImageId": "4df3497f1460dfd1ecd8125222f6d362",
+        "locality": "Sector 4",
+        "areaName": "Connaught Place",
+        "costForTwo": "₹400 for two",
+        "cuisines": [
+          "Beverages",
+          "Cafe",
+          "Snacks",
+          "Desserts",
+          "Bakery",
+          "Ice Cream"
+        ],
+        "avgRating": 4.3,
+        "feeDetails": {
+          "restaurantId": "69455",
+          "fees": [
+            {
+              "name": "BASE_DISTANCE",
+              "fee": 5000
+            },
+            {
+              "name": "BASE_TIME"
+            },
+            {
+              "name": "ANCILLARY_SURGE_FEE"
+            }
+          ],
+          "totalFee": 5000
+        },
+        "parentId": "195515",
+        "avgRatingString": "4.3",
+        "totalRatingsString": "1K+",
+        "sla": {
+          "deliveryTime": 27,
+          "lastMileTravel": 0.4,
+          "serviceability": "SERVICEABLE",
+          "slaString": "27 mins",
+          "lastMileTravelString": "0.4 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2023-10-24 23:59:00",
+          "opened": true
+        },
+        "badges": {
+          "textExtendedBadges": [
+            {
+              "iconId": "guiltfree/GF_Logo_android_3x",
+              "shortDescription": "options available",
+              "fontColor": "#7E808C"
+            }
+          ]
+        },
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {},
+            "textBased": {},
+            "textExtendedBadges": {
+              "badgeObject": [
+                {
+                  "attributes": {
+                    "description": "",
+                    "fontColor": "#7E808C",
+                    "iconId": "guiltfree/GF_Logo_android_3x",
+                    "shortDescription": "options available"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "40% OFF",
+          "subHeader": "UPTO ₹80"
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": {},
+            "video": {}
+          }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {}
+      },
+      "analytics": {},
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/starbucks-coffee-sector-4-connaught-place-delhi-69455",
+        "type": "WEBLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "45854",
+        "name": "Southy",
+        "cloudinaryImageId": "nwqta5tkonjagb5jdmkd",
+        "locality": "Arunachal Complex",
+        "areaName": "Connaught Place",
+        "costForTwo": "₹400 for two",
+        "cuisines": ["South Indian", "Snacks", "Beverages"],
+        "avgRating": 3.9,
+        "veg": true,
+        "feeDetails": {
+          "restaurantId": "45854",
+          "fees": [
+            {
+              "name": "BASE_DISTANCE",
+              "fee": 4300
+            },
+            {
+              "name": "BASE_TIME"
+            },
+            {
+              "name": "ANCILLARY_SURGE_FEE"
+            }
+          ],
+          "totalFee": 4300
+        },
+        "parentId": "889",
+        "avgRatingString": "3.9",
+        "totalRatingsString": "10K+",
+        "sla": {
+          "deliveryTime": 30,
+          "lastMileTravel": 0.9,
+          "serviceability": "SERVICEABLE",
+          "slaString": "30 mins",
+          "lastMileTravelString": "0.9 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2023-10-24 22:40:00",
+          "opened": true
+        },
+        "badges": {
+          "imageBadges": [
+            {
+              "imageId": "v1695133679/badges/Pure_Veg111.png",
+              "description": "pureveg"
+            }
+          ]
+        },
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {
+              "badgeObject": [
+                {
+                  "attributes": {
+                    "description": "pureveg",
+                    "imageId": "v1695133679/badges/Pure_Veg111.png"
+                  }
+                }
+              ]
+            },
+            "textBased": {},
+            "textExtendedBadges": {}
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "30% OFF",
+          "subHeader": "UPTO ₹150",
+          "discountTag": "SAVE BIG"
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": {},
+            "video": {}
+          }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {}
+      },
+      "analytics": {},
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/southy-arunachal-complex-connaught-place-delhi-45854",
+        "type": "WEBLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "8564",
+        "name": "Berco's -If you love Chinese",
+        "cloudinaryImageId": "zdeiaykkxxclvc2lpakv",
+        "locality": "Connaught Place",
+        "areaName": "Connaught Place",
+        "costForTwo": "₹600 for two",
+        "cuisines": [
+          "Asian",
+          "Thai",
+          "Chinese",
+          "Seafood",
+          "Desserts",
+          "Beverages"
+        ],
+        "avgRating": 4.2,
+        "feeDetails": {
+          "restaurantId": "8564",
+          "fees": [
+            {
+              "name": "BASE_DISTANCE",
+              "fee": 5000
+            },
+            {
+              "name": "BASE_TIME"
+            },
+            {
+              "name": "ANCILLARY_SURGE_FEE"
+            }
+          ],
+          "totalFee": 5000
+        },
+        "parentId": "108",
+        "avgRatingString": "4.2",
+        "totalRatingsString": "10K+",
+        "sla": {
+          "deliveryTime": 35,
+          "lastMileTravel": 0.7,
+          "serviceability": "SERVICEABLE",
+          "slaString": "35 mins",
+          "lastMileTravelString": "0.7 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2023-10-24 23:00:00",
+          "opened": true
+        },
+        "badges": {
+          "imageBadges": [
+            {
+              "imageId": "newg.png",
+              "description": "Gourmet"
+            }
+          ]
+        },
+        "isOpen": true,
+        "aggregatedDiscountInfoV2": {},
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {
+              "badgeObject": [
+                {
+                  "attributes": {
+                    "description": "Gourmet",
+                    "imageId": "newg.png"
+                  }
+                }
+              ]
+            },
+            "textBased": {},
+            "textExtendedBadges": {}
+          }
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": {},
+            "video": {}
+          }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {}
+      },
+      "analytics": {},
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/bercos-if-you-love-chinese-connaught-place-delhi-8564",
+        "type": "WEBLINK"
+      }
+    },
+    {
+      "info": {
         "id": "38928",
         "name": "Domino's Pizza",
         "cloudinaryImageId": "ajzfwd97o86feojkwoju",
@@ -1633,6 +1916,79 @@
       "analytics": {},
       "cta": {
         "link": "https://www.swiggy.com/restaurants/nandos-f-block-connaught-place-delhi-17463",
+        "type": "WEBLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "25397",
+        "name": "Oven Story Pizza - Standout Toppings",
+        "cloudinaryImageId": "f986df6f1a1fcf2ff24d2eaf44d570a7",
+        "locality": "Minto Road",
+        "areaName": "Connaught Place",
+        "costForTwo": "₹400 for two",
+        "cuisines": ["Pizzas", "Pastas", "Italian", "Desserts", "Beverages"],
+        "avgRating": 4,
+        "feeDetails": {
+          "restaurantId": "25397",
+          "fees": [
+            {
+              "name": "BASE_DISTANCE",
+              "fee": 5000
+            },
+            {
+              "name": "BASE_TIME"
+            },
+            {
+              "name": "ANCILLARY_SURGE_FEE"
+            }
+          ],
+          "totalFee": 5000
+        },
+        "parentId": "3534",
+        "avgRatingString": "4.0",
+        "totalRatingsString": "1K+",
+        "sla": {
+          "deliveryTime": 34,
+          "lastMileTravel": 2.2,
+          "serviceability": "SERVICEABLE",
+          "slaString": "28-40 mins",
+          "lastMileTravelString": "2.2 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2023-10-24 23:59:00",
+          "opened": true
+        },
+        "badges": {},
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {},
+            "textBased": {},
+            "textExtendedBadges": {}
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "60% OFF",
+          "subHeader": "UPTO ₹120"
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": {},
+            "video": {}
+          }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {}
+      },
+      "analytics": {},
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/oven-story-pizza-standout-toppings-minto-road-connaught-place-delhi-25397",
         "type": "WEBLINK"
       }
     }
